@@ -12,6 +12,8 @@
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
