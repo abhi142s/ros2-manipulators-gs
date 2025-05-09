@@ -4,6 +4,7 @@
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
 /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
