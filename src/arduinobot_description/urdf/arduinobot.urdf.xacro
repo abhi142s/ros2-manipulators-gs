@@ -1,5 +1,11 @@
 <?xml version = "1.0"?>
 <robot xmlns:xacro = "http://www.ros.org/wiki/xacro" name = "arduinobot">
+
+    <xacro:arg name = "is_ignition" default = "true"/>
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_gazebo.xacro"/>
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_ros2_control.xacro"/>
+    
+    <!-- Useful Macros-->
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30.0"/>
     <xacro:property name="velocity" value="10.0"/>
@@ -73,7 +79,7 @@
             </geometry>
         </collision>
     </link>
-    <joint name = "joint2" type="revolute">
+    <joint name = "joint_2" type="revolute">
         <parent link ="base_plate"/>
         <child link = "forward_drive_arm"/>
         <axis xyz="1 0 0"/>
@@ -96,7 +102,7 @@
             </geometry>
         </collision>
     </link>
-    <joint name = "joint3" type="revolute">
+    <joint name = "joint_3" type="revolute">
         <parent link ="forward_drive_arm"/>
         <child link = "horizontal_arm"/>
         <axis xyz="1 0 0"/>
@@ -218,16 +224,6 @@
             </camera>
         </sensor>   
     </gazebo>
-    <gazebo>
-        <!-- ROS 2 Humble -->
-        <xacro:if value="$(arg is_ignition)">
-          <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
-          </plugin>
-          <plugin filename="ignition-gazebo-sensors-system" name="ignition::gazebo::systems::Sensors">
-            <render_engine>ogre2</render_engine>
-          </plugin>
-        </xacro:if>
-      </gazebo>
     <joint name = "rgb_camera_joint" type="fixed">
         <parent link ="base_link"/>
         <child link = "rgb_camera"/>
