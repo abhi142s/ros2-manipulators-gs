@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "arduinobot_messages__py",
+		"source" : "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/arduinobot_messages__py"
+	}
+}

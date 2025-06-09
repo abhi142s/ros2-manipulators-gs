@@ -1,0 +1,6 @@
+{
+  "package_name": "arduinobot_messages",
+  "non_idl_tuples": [
+    "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages:srv/AddTwoints.srv"
+  ]
+}
