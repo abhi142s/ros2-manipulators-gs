@@ -360,6 +360,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_adapter/arduinobot_messages/srv/EulerToQuaternion.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_adapter/arduinobot_messages/srv/QuaternionToEuler.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages/srv/AddTwoints.srv")
 endif()
 
@@ -369,6 +377,30 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_cmake/srv/AddTwoints_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages/srv/EulerToQuaternion.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_cmake/srv/EulerToQuaternion_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_cmake/srv/EulerToQuaternion_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages/srv/QuaternionToEuler.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_cmake/srv/QuaternionToEuler_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_cmake/srv/QuaternionToEuler_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

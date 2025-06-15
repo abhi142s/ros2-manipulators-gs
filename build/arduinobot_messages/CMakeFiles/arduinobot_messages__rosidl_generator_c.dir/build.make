@@ -83,6 +83,8 @@ rosidl_generator_c/arduinobot_messages/srv/add_twoints.h: /opt/ros/humble/share/
 rosidl_generator_c/arduinobot_messages/srv/add_twoints.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/arduinobot_messages/srv/add_twoints.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/arduinobot_messages/srv/add_twoints.h: rosidl_adapter/arduinobot_messages/srv/AddTwoints.idl
+rosidl_generator_c/arduinobot_messages/srv/add_twoints.h: rosidl_adapter/arduinobot_messages/srv/EulerToQuaternion.idl
+rosidl_generator_c/arduinobot_messages/srv/add_twoints.h: rosidl_adapter/arduinobot_messages/srv/QuaternionToEuler.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c__arguments.json
 
@@ -95,8 +97,38 @@ rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__struct.h: rosidl_
 rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__type_support.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__type_support.h
 
+rosidl_generator_c/arduinobot_messages/srv/euler_to_quaternion.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/euler_to_quaternion.h
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.h
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__struct.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__struct.h
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.h
+
+rosidl_generator_c/arduinobot_messages/srv/quaternion_to_euler.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/quaternion_to_euler.h
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.h
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__struct.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__struct.h
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h
+
 rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c: rosidl_generator_c/arduinobot_messages/srv/add_twoints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c
 
 CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.o: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/flags.make
 CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.o: rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c
@@ -112,19 +144,51 @@ CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduin
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c -o CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.s
 
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/flags.make
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o -MF CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o.d -o CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o -c /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c
+
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c > CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.i
+
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c -o CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.s
+
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/flags.make
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o -MF CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o.d -o CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o -c /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c
+
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c > CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.i
+
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c -o CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.s
+
 # Object files for target arduinobot_messages__rosidl_generator_c
 arduinobot_messages__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.o"
+"CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.o" \
+"CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o" \
+"CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o"
 
 # External object files for target arduinobot_messages__rosidl_generator_c
 arduinobot_messages__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libarduinobot_messages__rosidl_generator_c.so: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.o
+libarduinobot_messages__rosidl_generator_c.so: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o
+libarduinobot_messages__rosidl_generator_c.so: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o
 libarduinobot_messages__rosidl_generator_c.so: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make
 libarduinobot_messages__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libarduinobot_messages__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libarduinobot_messages__rosidl_generator_c.so: CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libarduinobot_messages__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libarduinobot_messages__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +204,16 @@ CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_
 CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.h
 CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__struct.h
 CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__type_support.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__struct.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__struct.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/euler_to_quaternion.h
+CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend: rosidl_generator_c/arduinobot_messages/srv/quaternion_to_euler.h
 	cd /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/depend
 

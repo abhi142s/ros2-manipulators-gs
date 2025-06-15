@@ -244,8 +244,22 @@ CMakeFiles/arduinobot_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator
   rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__type_support.h \
   rosidl_generator_c/arduinobot_messages/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__struct.h \
-  rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.h
+  rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.h \
+  rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.h \
+  rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__struct.h \
+  rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.h \
+  rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h \
+  rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__struct.h \
+  rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.h
 
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h:
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.h:
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__struct.h:
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.h:
 
 rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.h:
 
@@ -653,6 +667,8 @@ rosidl_generator_c/arduinobot_messages/msg/rosidl_generator_c__visibility_contro
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
 
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__struct.h:
+
 /usr/include/python3.10/fileutils.h:
 
 /usr/include/aarch64-linux-gnu/bits/getopt_core.h:
@@ -668,6 +684,8 @@ rosidl_generator_c/arduinobot_messages/msg/rosidl_generator_c__visibility_contro
 /usr/include/aarch64-linux-gnu/bits/byteswap.h:
 
 /usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.h:
 
 /usr/include/linux/close_range.h:
 

@@ -1,10 +1,18 @@
 file(REMOVE_RECURSE
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.o"
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.o.d"
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o"
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o.d"
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o"
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o.d"
   "libarduinobot_messages__rosidl_typesupport_fastrtps_cpp.pdb"
   "libarduinobot_messages__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

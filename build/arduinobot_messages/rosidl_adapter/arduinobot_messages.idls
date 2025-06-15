@@ -1,1 +1,3 @@
 /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/AddTwoints.idl
+/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/EulerToQuaternion.idl
+/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/QuaternionToEuler.idl

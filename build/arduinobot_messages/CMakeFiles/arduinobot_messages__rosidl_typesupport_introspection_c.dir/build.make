@@ -78,11 +78,25 @@ rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__r
 rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h: rosidl_adapter/arduinobot_messages/srv/AddTwoints.idl
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h: rosidl_adapter/arduinobot_messages/srv/EulerToQuaternion.idl
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h: rosidl_adapter/arduinobot_messages/srv/QuaternionToEuler.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c
 
 CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.o: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.o: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c
@@ -98,21 +112,53 @@ CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_ty
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c -o CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.s
 
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o -MF CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o.d -o CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o -c /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c
+
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c > CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.i
+
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c -o CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.s
+
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o -MF CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o.d -o CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o -c /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c
+
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c > CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.i
+
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c -o CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.s
+
 # Object files for target arduinobot_messages__rosidl_typesupport_introspection_c
 arduinobot_messages__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.o"
+"CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.o" \
+"CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o" \
+"CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o"
 
 # External object files for target arduinobot_messages__rosidl_typesupport_introspection_c
 arduinobot_messages__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libarduinobot_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.o
+libarduinobot_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o
+libarduinobot_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o
 libarduinobot_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make
 libarduinobot_messages__rosidl_typesupport_introspection_c.so: libarduinobot_messages__rosidl_generator_c.so
 libarduinobot_messages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libarduinobot_messages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libarduinobot_messages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libarduinobot_messages__rosidl_typesupport_introspection_c.so: CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libarduinobot_messages__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libarduinobot_messages__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +171,10 @@ CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
 CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c
 	cd /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_messages/CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/depend
 

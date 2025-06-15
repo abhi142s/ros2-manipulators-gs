@@ -1,6 +1,8 @@
 {
   "package_name": "arduinobot_messages",
   "non_idl_tuples": [
-    "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages:srv/AddTwoints.srv"
+    "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages:srv/AddTwoints.srv",
+    "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages:srv/EulerToQuaternion.srv",
+    "/home/abhinandan/ROS2-projects/manipulation/src/arduinobot_messages:srv/QuaternionToEuler.srv"
   ]
 }

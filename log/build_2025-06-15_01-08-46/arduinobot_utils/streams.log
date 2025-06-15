@@ -1,0 +1,60 @@
+[0.148s] Invoking command in '/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils': CMAKE_PREFIX_PATH=/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_messages:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_cpp_examples:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_controller:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils -- -j4 -l4
+[0.180s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.291s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.291s] -- Found arduinobot_messages: 0.0.0 (/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_messages/share/arduinobot_messages/cmake)
+[0.341s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.345s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.367s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.518s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.573s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.577s] -- Added test 'lint_cmake' to check CMake code style
+[0.577s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.577s] -- Added test 'xmllint' to check XML markup files
+[0.578s] -- Configuring done
+[0.587s] -- Generating done
+[0.589s] -- Build files have been written to: /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils
+[0.652s] Built target ament_cmake_python_copy_arduinobot_utils
+[0.810s] running egg_info
+[0.810s] creating arduinobot_utils.egg-info
+[0.810s] writing arduinobot_utils.egg-info/PKG-INFO
+[0.810s] writing dependency_links to arduinobot_utils.egg-info/dependency_links.txt
+[0.810s] writing top-level names to arduinobot_utils.egg-info/top_level.txt
+[0.810s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.811s] reading manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.811s] writing manifest file 'arduinobot_utils.egg-info/SOURCES.txt'
+[0.828s] Built target ament_cmake_python_build_arduinobot_utils_egg
+[0.833s] Invoked command in '/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_messages:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_cpp_examples:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_controller:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils -- -j4 -l4
+[0.833s] Invoking command in '/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils': CMAKE_PREFIX_PATH=/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_messages:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_cpp_examples:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_controller:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils
+[0.836s] -- Install configuration: ""
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/environment/pythonpath.sh
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/environment/pythonpath.dsv
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils/__init__.py
+[0.836s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils/angle_conversion.py
+[0.852s] Listing '/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils'...
+[0.854s] Compiling '/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils/__init__.py'...
+[0.854s] Compiling '/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/local/lib/python3.10/dist-packages/arduinobot_utils/angle_conversion.py'...
+[0.855s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/lib/arduinobot_utils/angle_conversion.py
+[0.855s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/ament_index/resource_index/package_run_dependencies/arduinobot_utils
+[0.856s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/ament_index/resource_index/parent_prefix_path/arduinobot_utils
+[0.857s] -- Up-to-date: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.sh
+[0.857s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.dsv
+[0.858s] -- Up-to-date: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/environment/path.sh
+[0.858s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/environment/path.dsv
+[0.859s] -- Up-to-date: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/local_setup.bash
+[0.859s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/local_setup.sh
+[0.859s] -- Up-to-date: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/local_setup.zsh
+[0.860s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/local_setup.dsv
+[0.860s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/package.dsv
+[0.861s] -- Up-to-date: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/ament_index/resource_index/packages/arduinobot_utils
+[0.861s] -- Up-to-date: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig.cmake
+[0.861s] -- Up-to-date: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig-version.cmake
+[0.861s] -- Installing: /home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils/share/arduinobot_utils/package.xml
+[0.864s] Invoked command in '/home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_messages:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_utils:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_description:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_cpp_examples:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_controller:/home/abhinandan/ROS2-projects/manipulation/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/abhinandan/ROS2-projects/manipulation/build/arduinobot_utils

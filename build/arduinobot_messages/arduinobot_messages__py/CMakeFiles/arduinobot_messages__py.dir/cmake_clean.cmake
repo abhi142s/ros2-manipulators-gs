@@ -5,6 +5,10 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/arduinobot_messages/srv/__init__.py"
   "../rosidl_generator_py/arduinobot_messages/srv/_add_twoints.py"
   "../rosidl_generator_py/arduinobot_messages/srv/_add_twoints_s.c"
+  "../rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion.py"
+  "../rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c"
+  "../rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler.py"
+  "../rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c"
   "CMakeFiles/arduinobot_messages__py"
 )
 

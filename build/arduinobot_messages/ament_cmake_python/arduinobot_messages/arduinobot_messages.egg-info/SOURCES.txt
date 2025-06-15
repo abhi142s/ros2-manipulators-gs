@@ -6,3 +6,5 @@ arduinobot_messages.egg-info/dependency_links.txt
 arduinobot_messages.egg-info/top_level.txt
 arduinobot_messages/srv/__init__.py
 arduinobot_messages/srv/_add_twoints.py
+arduinobot_messages/srv/_euler_to_quaternion.py
+arduinobot_messages/srv/_quaternion_to_euler.py

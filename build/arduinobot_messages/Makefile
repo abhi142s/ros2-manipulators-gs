@@ -429,6 +429,54 @@ rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.s
 .PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.c.s
 
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.o: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.o
+
+# target to build an object file
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.o
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.i: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.i
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.i
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.i
+
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.s: rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.s
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.s
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c.s
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.o: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.o
+
+# target to build an object file
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.o
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.i: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.i
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.i
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.i
+
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.s: rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.s
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_c.dir/rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.s
+.PHONY : rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c.s
+
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.o
 
@@ -525,6 +573,54 @@ rosidl_generator_py/arduinobot_messages/srv/_add_twoints_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_add_twoints_s.c.s
 .PHONY : rosidl_generator_py/arduinobot_messages/srv/_add_twoints_s.c.s
 
+rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.o: rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.o
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.o
+
+# target to build an object file
+rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.o
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.o
+
+rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.i: rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.i
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.i
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.i
+
+rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.s: rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.s
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.s
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c.s
+
+rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.o: rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.o
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.o
+
+# target to build an object file
+rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.o
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.o
+
+rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.i: rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.i
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.i
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.i
+
+rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.s: rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.s
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/build.make CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.s
+.PHONY : rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c.s
+
 rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.o: rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.o
 
@@ -548,6 +644,54 @@ rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.s: rosidl
 rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.cpp.s
+
+rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.o: rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o
+
+rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.i: rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i
+
+rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.s: rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s
+
+rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.o: rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o
+
+rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.i: rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i
+
+rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.s: rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s
 
 rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.o: rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.o
@@ -573,6 +717,54 @@ rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.cpp.s
 
+rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.o: rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.o
+
+rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.i: rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.i
+
+rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.s: rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.cpp.s
+
+rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.o: rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.o
+
+rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.i: rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.i
+
+rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.s: rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.o: rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.o
 
@@ -596,6 +788,54 @@ rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_s
 rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.o: rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.i: rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.s: rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.o: rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.i: rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.s: rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.o: rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.o
@@ -621,6 +861,54 @@ rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.o: rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.i: rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.s: rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.o: rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.i: rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.s: rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.o: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.o
 
@@ -645,6 +933,54 @@ rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__t
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.c.s
 
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.o: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.o
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.i: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.i
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.s: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c.s
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.o: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.i: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.i
+
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.s: rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.s
+
 rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.o: rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.o
 
@@ -668,6 +1004,54 @@ rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints_
 rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.o: rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.i: rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.s: rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.o: rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.i: rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.s: rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp.s
 
 # Help Target
 help:
@@ -703,6 +1087,12 @@ help:
 	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.o"
 	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.i"
 	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/add_twoints__functions.s"
+	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.o"
+	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.i"
+	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/euler_to_quaternion__functions.s"
+	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.o"
+	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.i"
+	@echo "... rosidl_generator_c/arduinobot_messages/srv/detail/quaternion_to_euler__functions.s"
 	@echo "... rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.s"
@@ -715,24 +1105,66 @@ help:
 	@echo "... rosidl_generator_py/arduinobot_messages/srv/_add_twoints_s.o"
 	@echo "... rosidl_generator_py/arduinobot_messages/srv/_add_twoints_s.i"
 	@echo "... rosidl_generator_py/arduinobot_messages/srv/_add_twoints_s.s"
+	@echo "... rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.o"
+	@echo "... rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.i"
+	@echo "... rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.s"
+	@echo "... rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.o"
+	@echo "... rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.i"
+	@echo "... rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.s"
 	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.o"
 	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.i"
 	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/add_twoints__type_support.s"
+	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.o"
+	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.i"
+	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/euler_to_quaternion__type_support.s"
+	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.o"
+	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.i"
+	@echo "... rosidl_typesupport_c/arduinobot_messages/srv/quaternion_to_euler__type_support.s"
 	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.o"
 	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.i"
 	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/add_twoints__type_support.s"
+	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.o"
+	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.i"
+	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/euler_to_quaternion__type_support.s"
+	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.o"
+	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.i"
+	@echo "... rosidl_typesupport_cpp/arduinobot_messages/srv/quaternion_to_euler__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/add_twoints__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_twoints__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_twoints__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/add_twoints__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.s"
 .PHONY : help
 
 
